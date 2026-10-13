@@ -25,7 +25,9 @@ nav.main a:hover{color:var(--sage)}
 .btn-donate{background:var(--clay);color:#fff}
 .btn-donate:hover{background:var(--clay-dark)}
 .btn-ghost{border-color:var(--sage);color:var(--sage-dark);background:#fff}
-.hero{background:var(--sage);color:#fff;padding:64px 0}
+.banner{background:#e9e2d6;line-height:0}
+.banner img{display:block;width:100%;height:auto}
+.hero{background:var(--sage);color:#fff;padding:46px 0}
 .hero h1{color:#fff;font-size:2.5rem;max-width:22ch}
 .hero p{font-size:1.13rem;max-width:48ch}
 .hero .btn{margin-top:12px;margin-right:10px}
