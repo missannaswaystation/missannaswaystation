@@ -34,6 +34,9 @@ nav.main a:hover{color:var(--sage)}
 section{padding:56px 0}
 section.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .lead{font-size:1.1rem;max-width:62ch}
+.split{display:grid;grid-template-columns:minmax(240px,400px) 1fr;gap:34px;align-items:start;margin-bottom:34px}
+.split img{width:100%;height:auto;border-radius:14px;border:1px solid var(--line)}
+@media(max-width:780px){.split{grid-template-columns:1fr}}
 .cards{display:grid;gap:22px;margin-top:26px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
 .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}
 .card .btn{margin-top:12px}
