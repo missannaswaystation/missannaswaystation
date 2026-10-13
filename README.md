@@ -26,6 +26,10 @@ copy-paste, never retype, and test the link afterwards.
     Amazon     https://www.amazon.com/hz/wishlist/ls/1XON7PG287Z33?ref_=wl_share
     Cash App   https://cash.app/$Wayetsi
 
+    Vet bill   Pallone Veterinary Hospital, Rose Bud AR, (501) 556-5355
+               Callers ask to put a payment on Miss Anna's Way Station's account.
+               No link to maintain - it is a phone number.
+
 PayPal is the button in the header of every page. It is the one that takes cards
 without an account, which is why it is the primary route.
 
