@@ -74,3 +74,10 @@ footer.site .small{font-size:.87rem;color:#d9d3c7}
   header.site .wrap::after{content:"";order:2;flex-basis:100%;height:0}
 }
 @media(max-width:360px){.brand{font-size:1rem} header.site .wrap{column-gap:10px} nav.main a{font-size:.88rem}}
+
+/* Thinner page banner on phones (pages without a hero photo) */
+@media (max-width: 640px) {
+  .hero:not(:has(.hero-grid)) { padding: 16px 0; }
+  .hero:not(:has(.hero-grid)) h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 4px; }
+  .hero:not(:has(.hero-grid)) p { font-size: .95rem; line-height: 1.4; margin: 0; }
+}
